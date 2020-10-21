@@ -38,10 +38,11 @@ def mongoConnexion():
     if 'your-collection' in colList:
         col=db['your-collection']
 
-    return col
+    return db
 
 def main():
-    mongoCol=mongoConnexion()
+    mongoDb=mongoConnexion()['you-collection']
     insertTracksToMongo(mongoCol)
-
+    mongoDb.close()
+    
 main()
