@@ -1,0 +1,5 @@
+CLIENT_ID='your-client-id'
+CLIENT_SECRET='your-client-secret'
+USERNAME='your-username'
+REDIRECT_URI='your-redirect-uri'
+SCOPE='your-scope' #for retrieve recently played track use 'user-read-recently-played'
