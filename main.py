@@ -41,7 +41,8 @@ def mongoConnexion():
     return db
 
 def main():
-    mongoDb=mongoConnexion()['you-collection']
+    mongoDb=mongoConnexion()
+    mongoCol=mongoConnexion()['your-collection']
     insertTracksToMongo(mongoCol)
     mongoDb.close()
     
