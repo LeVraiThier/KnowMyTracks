@@ -14,10 +14,10 @@ Retrieve the 50 last songs you played on Spotify and store them into a mongo dat
   - modify  [secrets.py](https://github.com/LeVraiThier/KnowMyTracks/blob/master/secrets.py) with your Spotify datas
   - modify [main.py]((https://github.com/LeVraiThier/KnowMyTracks/blob/master/secrets.py)) with your mongoDB datas
 
-###To run the script
- '''sh
- asda
- '''
+### To run the script
+```sh
+$ python3 main.py
+```
  
  
  Feel free to do what you want with the script, I don't give a shit.
