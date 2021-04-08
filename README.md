@@ -3,7 +3,7 @@
 Retrieve the 50 last songs you played on Spotify and store them into a mongo database
 
 ### To run this script you'll need:
-  - Python3 (oviously)
+  - Python3 (obviously)
   - pip3 (for package installation)
   - pymongo package 
   - spotipy package
